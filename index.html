@@ -3,37 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My World</title>
+    <title>Help the Earth</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10d3a6231f.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
 <section class="header">
-    <div class="head">
-        <div class="logo">
-            <div class="img"></div>
-        </div>
-        <div class="txt">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ex!
-        </div>
-    </div> 
     <div class="navigator">
         <nav class="navigator_nav">
-            <ul>Home</ul>
-            <ul>Setting</ul>
-            <ul>About us</ul>
-            <ul>profile</ul>
-            <ul><span class="different">Exit</span></ul>
+            <ul><a href="#Home">Home</a></ul>
+            <ul><a href="#text">About us</a></ul>
+            <ul><a href="#">Setting</a></ul>
         </nav>
     </div>
     <div class="navigator_responsive">
-        <nav class="navigator_responsive-nav">
-            <ul>Home</ul>
-            <ul>Setting</ul>
-            <ul>About us</ul>
-            <ul>profile</ul>
-            <ul><span class="different">Exit</span></ul>
-        </nav>
+        <span class="menu"><i class="fa-solid fa-bars btn"></i></span>
+        <span class="phrase">We need you!!</span>
+            <nav class="navigator_responsive-nav">
+                <ul><a href="#home">Home</a></ul>
+                <ul><a href="#text">About us</a></ul>
+               <ul><a href="#">Setting</a></ul>
+            </nav>
+    </div>
+    <div id="carrusel">
+        <div class="carrusel_target" id="target_1">
+            <img src="img/146-8.webp" alt="Reforest">
+            <div class="carrusel_blur">
+                <h2>REFOREST</h2>
+            </div>   
+        </div>
+        <div class="carrusel_target" id="target_2">
+            <img src="img/Debemos-trabajar-para-proteger-la-naturaleza.jpg" alt="Help">
+            <div class="carrusel_blur">
+                <h2>HELP</h2>
+            </div>
+        </div>
+        <div class="carrusel_target" id="target_3">
+            <img src="img/Cuidar.jpeg" alt="Care">
+            <div class="carrusel_blur">
+                <h2>CARE</h2>
+            </div>
+        </div>
     </div>
 </section>
+
+<main id="text">
+    <section class="themes">
+        <div class="themes_p">
+        <h2>
+            Reforest
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum illum est, reiciendis itaque iusto doloremque ratione? Recusandae voluptatem ipsa mollitia, fuga, odit quas quasi soluta numquam 
+            exercitationem alias unde! Quam perspiciatis expedita officiis eveniet neque et eligendi fugiat consequatur facere voluptas sed quae reiciendis, labore cupiditate eaque, necessitatibus harum numquam, odit 
+            adipisci. Omnis esse voluptate illum, ab assumenda illo?Rem nobis debitis voluptate iure unde, omnis harum aliquam laudantium quas deserunt, quis animi dolorem. Rem adipisci quos repudiandae, inventore 
+            provident asperiores voluptatibus ratione neque suscipit, repellat non quisquam sint.Nobis, deleniti perferendis! Sit praesentium laudantium laboriosam laborum cumque hic fuga ipsa labore est, consectetur 
+            debitis atque iure, blanditiis et autem obcaecati ea. Expedita quae, laudantium dolorum iste perspiciatis amet?Tempore quidem praesentium vero mollitia dolore, ad voluptates iure qui neque. Minus, magni
+            eveniet accusamus porro molestias excepturi eos itaque quasi quo illum atque in fugit modi eaque veniam inventore.
+        </p>
+        </div>
+        <div class="themes_read-more">
+            <h3>READ MORE</h3>
+            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+    <section class="themes">
+        <div class="themes_p">
+        <h2>
+            Help
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum illum est, reiciendis itaque iusto doloremque ratione? Recusandae voluptatem ipsa mollitia, fuga, odit quas quasi soluta numquam 
+            exercitationem alias unde! Quam perspiciatis expedita officiis eveniet neque et eligendi fugiat consequatur facere voluptas sed quae reiciendis, labore cupiditate eaque, necessitatibus harum numquam, odit 
+            adipisci. Omnis esse voluptate illum, ab assumenda illo?Rem nobis debitis voluptate iure unde, omnis harum aliquam laudantium quas deserunt, quis animi dolorem. Rem adipisci quos repudiandae, inventore 
+            provident asperiores voluptatibus ratione neque suscipit, repellat non quisquam sint.Nobis, deleniti perferendis! Sit praesentium laudantium laboriosam laborum cumque hic fuga ipsa labore est, consectetur 
+            debitis atque iure, blanditiis et autem obcaecati ea. Expedita quae, laudantium dolorum iste perspiciatis amet?Tempore quidem praesentium vero mollitia dolore, ad voluptates iure qui neque. Minus, magni
+            eveniet accusamus porro molestias excepturi eos itaque quasi quo illum atque in fugit modi eaque veniam inventore.
+        </p>
+        </div>
+        <div class="themes_read-more">
+            <h3>READ MORE</h3>
+            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+    <section class="themes">
+        <div class="themes_p">
+        <h2>
+            Care
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatum illum est, reiciendis itaque iusto doloremque ratione? Recusandae voluptatem ipsa mollitia, fuga, odit quas quasi soluta numquam 
+            exercitationem alias unde! Quam perspiciatis expedita officiis eveniet neque et eligendi fugiat consequatur facere voluptas sed quae reiciendis, labore cupiditate eaque, necessitatibus harum numquam, odit 
+            adipisci. Omnis esse voluptate illum, ab assumenda illo?Rem nobis debitis voluptate iure unde, omnis harum aliquam laudantium quas deserunt, quis animi dolorem. Rem adipisci quos repudiandae, inventore 
+            provident asperiores voluptatibus ratione neque suscipit, repellat non quisquam sint.Nobis, deleniti perferendis! Sit praesentium laudantium laboriosam laborum cumque hic fuga ipsa labore est, consectetur 
+            debitis atque iure, blanditiis et autem obcaecati ea. Expedita quae, laudantium dolorum iste perspiciatis amet?Tempore quidem praesentium vero mollitia dolore, ad voluptates iure qui neque. Minus, magni
+            eveniet accusamus porro molestias excepturi eos itaque quasi quo illum atque in fugit modi eaque veniam inventore.
+        </p>
+        </div>
+        <div class="themes_read-more">
+            <h3>READ MORE</h3>
+            <i class="fa-sharp fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+</main>
 </body>
+<script src="index.js"></script>
 </html>
